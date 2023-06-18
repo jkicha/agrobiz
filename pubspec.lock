@@ -86,6 +86,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_admin_scaffold:
+    dependency: "direct main"
+    description:
+      name: flutter_admin_scaffold
+      sha256: "16f39c54d999e025e5b8fb680c86836375b3c0d63fded9d9219c309fa31f7f1e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -99,6 +107,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_data_table:
+    dependency: "direct main"
+    description:
+      name: flutter_web_data_table
+      sha256: a059dad7673dcec32905ec1de5e92dab7c3a4d0b6bf7ddc1ad082c679dc48498
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   js:
     dependency: transitive
     description:
@@ -242,4 +258,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.3 <4.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=3.3.0"

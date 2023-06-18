@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   mysql1: ^0.20.0
   easy_sidemenu: ^0.4.1+1
+  flutter_web_data_table: ^1.0.0
+  flutter_admin_scaffold: ^1.2.0
 
 dev_dependencies:
   flutter_test:
