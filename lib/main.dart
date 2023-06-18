@@ -3,10 +3,10 @@ import 'package:agrobiz/pricelist_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_admin_scaffold/admin_scaffold.dart';
 import 'package:agrobiz/sample_pages/dashboard_page.dart';
-import 'package:agrobiz/sample_pages/second_level_item_1_page.dart';
-import 'package:agrobiz/sample_pages/second_level_item_2_page.dart';
+// import 'package:agrobiz/sample_pages/second_level_item_1_page.dart';
+// import 'package:agrobiz/sample_pages/second_level_item_2_page.dart';
 import 'package:agrobiz/sample_pages/third_level_item_1_page.dart';
-import 'package:agrobiz/sample_pages/third_level_item_2_page.dart';
+// import 'package:agrobiz/sample_pages/third_level_item_2_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -87,7 +87,7 @@ class _MyAppState extends State<MyApp> {
       case '/thirdLevelItem1':
         return ThirdLevelItem1Page();
       case '/thirdLevelItem2':
-        return ThirdLevelItem2Page();
+        return ThirdLevelItem1Page();
     }
     return null;
   }
